@@ -1,0 +1,16 @@
+@import url(style.css);
+
+.card {
+  min-height: 21rem;
+
+  img {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@media screen and (max-width: 766px) {
+  .card {
+    min-height: 15rem;
+  }
+}
