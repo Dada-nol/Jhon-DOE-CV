@@ -1,1 +1,5 @@
-@import url(./services.css);
+@import "variable.scss";
+
+#background-image {
+  @include background-img;
+}

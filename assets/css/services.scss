@@ -1,7 +1,7 @@
+@import "variable.scss";
+
 #background-image {
-  background-size: cover;
-  min-height: 40vh;
-  position: relative;
+  @include background-img;
 }
 
 .card {
