@@ -1,44 +1,18 @@
+h1,
+h2 {
+  color: white;
+}
+
+h3 {
+  color: #1e1e1e;
+}
+
+p {
+  color: #444;
+}
+
 body {
   background-color: #eee;
-}
-
-main {
-  .custom-container {
-    padding: 0;
-  }
-
-  .masthead {
-    background-size: cover;
-    min-height: 100vh;
-    position: relative;
-  }
-
-  h1,
-  h2 {
-    color: white;
-  }
-
-  h3 {
-    color: #1e1e1e;
-  }
-
-  p {
-    color: #444;
-  }
-
-  .d-flex {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.2);
-  }
-}
-
-#AboutMe {
-  img {
-    width: 425px;
-    height: 400px;
-  }
 }
 
 footer {
@@ -52,11 +26,16 @@ footer {
   }
 }
 
-@media screen and (max-width: 768px) {
-  .masthead {
-    min-height: 50vh;
-  }
+.card {
+  min-height: 21rem;
+}
+
+@media screen and (max-width: 766px) {
   h1 {
     font-size: calc(1.525rem + 3.3vw);
+  }
+
+  .card {
+    min-height: 15rem;
   }
 }
