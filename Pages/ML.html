@@ -10,6 +10,11 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+    <link
+      rel="shortcut icon"
+      href="../assets/img/favicon.png"
+      type="image/x-icon"
+    />
     <link rel="stylesheet" href="../assets/css/style.css" />
     <link rel="stylesheet" href="../assets/css/home.css" />
   </head>
@@ -18,9 +23,7 @@
     <header>
       <nav class="navbar navbar-expand-lg bg-secondary">
         <div class="container">
-          <a class="navbar-brand text-light text-uppercase" href="#page-top"
-            >Jhon DOE
-          </a>
+          <a class="navbar-brand text-light text-uppercase">Jhon DOE </a>
           <button
             class="navbar-toggler"
             type="button"
@@ -37,7 +40,7 @@
             <ul class="navbar-nav ms-auto">
               <li class="nav-item mx-0 mx-lg-1">
                 <a
-                  class="nav-link active py-3 px-0 px-lg-3 rounded text-uppercase text-light"
+                  class="nav-link py-3 px-0 px-lg-3 rounded text-uppercase text-light"
                   aria-current="page"
                   href="index.html"
                   >Accueil</a
@@ -78,7 +81,6 @@
     </header>
 
     <main>
-
       <div class="container">
         <div class="row text-center text-uppercase m-4">
           <h3>Mentions légales</h3>
@@ -105,11 +107,13 @@
                 data-bs-parent="#accordionExample"
               >
                 <div class="accordion-body">
-                 <h4><strong>John Doe</strong></h4>
+                  <h4><strong>John Doe</strong></h4>
                   <p>40 Rue Laure Diebold</p>
                   <p>69009 Lyon, France</p>
                   <p><a href="tel:06 20 30 40 50">06 20 30 40 50</a></p>
-                  <p><a href="mailto:john.doe@gmail.com">john.doe@gmail.com</a></p>
+                  <p>
+                    <a href="mailto:john.doe@gmail.com">john.doe@gmail.com</a>
+                  </p>
                 </div>
               </div>
             </div>
@@ -135,87 +139,195 @@
                   <h4><strong>Always Data</strong></h4>
                   <p>91 rue du Faubourg Saint Honoré</p>
                   <p>75008 Paris</p>
-                  <p><a href="www.alwaysdata.com">www.alwaysdata.com</a></p>
-                  
+                  <p>
+                    <a href="https://www.alwaysdata.com/fr/"
+                      >www.alwaysdata.com</a
+                    >
+                  </p>
+                </div>
               </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button
-                  class="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#collapseThree"
-                  aria-expanded="false"
-                  aria-controls="collapseThree"
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    Crédits
+                  </button>
+                </h2>
+                <div
+                  id="collapseThree"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionExample"
                 >
-                  Crédits
-                </button>
-              </h2>
-              <div
-                id="collapseThree"
-                class="accordion-collapse collapse"
-                data-bs-parent="#accordionExample"
-              >
-                <div class="accordion-body">
-                  <h4><strong>Crédits</strong></h4>
-                  <p>Site développé par John Doe, étudiant du CEF.</p>
-                  <p>Les images libres de droit sont issues du site Pixabay.</p>
+                  <div class="accordion-body">
+                    <h4><strong>Crédits</strong></h4>
+                    <p>Site développé par John Doe, étudiant du CEF.</p>
+                    <p>
+                      Les images libres de droit sont issues du site
+                      <a href="https://pixabay.com/">Pixabay</a>.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        </div>
-
-        
-
-      
+      </div>
     </main>
 
     <footer class="bg-secondary-subtle">
       <div class="container text-center p-3">
         <div class="row">
           <div class="col-lg col-md-6">
-            <p>Jhon Doe</p>
+            <h5>Jhon Doe</h5>
             <p>40 Rue Laure Diebold</p>
             <p>69009 Lyon, France</p>
             <p>Téléphone : 06 20 30 40 50</p>
-            <img src="../assets/img/github.png" alt="Github" />
-            <img src="../assets/img/facebook(1).png" alt="facebook" />
-            <img src="../assets/img/instagram.png" alt="instagram" />
+            <a target="_blank" href="https://github.com/github-john-doe">
+              <img src="../assets/img/github.png" alt="Github" />
+            </a>
+            <a target="_blank" href="https://www.facebook.com/darren.nardol.7/">
+              <img src="../assets/img/facebook(1).png" alt="facebook" />
+            </a>
+            <a target="_blank" href="https://www.instagram.com/dada_nol/">
+              <img src="../assets/img/instagram.png" alt="instagram" />
+            </a>
           </div>
           <div class="col-lg col-md-6">
-            <p>Liens utiles</p>
-            <ul>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="./Services.html">Services</a></li>
-              <li><a href="Contact.html">Me contacter</a></li>
-              <li><a href="ML.html">Mentions légales</a></li>
-            </ul>
+            <h5>Liens utiles</h5>
+            <div>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                <path
+                  d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"
+                />
+              </svg>
+
+              <a href="index.html">Home</a>
+            </div>
+
+            <div>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                <path
+                  d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"
+                />
+              </svg>
+              <a href="./Services.html">Services</a>
+            </div>
+
+            <div>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                <path
+                  d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"
+                />
+              </svg>
+
+              <a href="Contact.html">Me contacter</a>
+            </div>
+
+            <div>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                <path
+                  d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"
+                />
+              </svg>
+
+              <a href="ML.html">Mentions légales</a>
+            </div>
           </div>
           <div class="col-lg col-md-6">
-            <p>Mes dernières réalisations</p>
-            <ul>
-              <li><p>Réalisation 1</p></li>
-              <li><p>Réalisation 2</p></li>
-              <li><p>Réalisation 3</p></li>
-            </ul>
+            <h5>Mes dernières réalisations</h5>
+
+            <div>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                <path
+                  d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"
+                />
+              </svg>
+              <a href="">Projet 1</a>
+            </div>
+
+            <div>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                <path
+                  d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"
+                />
+              </svg>
+              <a
+                target="_blank"
+                href="https://github.com/Dada-nol/CV-Darren.git"
+                >Projet 2</a
+              >
+            </div>
+
+            <div>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                <path
+                  d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"
+                />
+              </svg>
+              <a
+                target="_blank"
+                href="https://github.com/Dada-nol/Dynamiser-un-espace-commentaire.git"
+                >Projet 3</a
+              >
+            </div>
           </div>
           <div class="col-lg col-md-6">
-            <p>Mes derniers articles</p>
-            <ul>
-              <li><p>Article 1</p></li>
-              <li><p>Article 2</p></li>
-              <li><p>Article 3</p></li>
-            </ul>
+            <h5>Mes derniers articles</h5>
+
+            <div>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                <path
+                  d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"
+                />
+              </svg>
+              <a
+                target="_blank"
+                href="https://developer.mozilla.org/fr/docs/Learn/CSS/CSS_layout/Responsive_Design"
+                >Article 1</a
+              >
+            </div>
+
+            <div>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                <path
+                  d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"
+                />
+              </svg>
+              <a
+                target="_blank"
+                href="https://developer.mozilla.org/fr/docs/Glossary/SEO"
+                >Article 2</a
+              >
+            </div>
+
+            <div>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                <path
+                  d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"
+                />
+              </svg>
+              <a
+                target="_blank"
+                href="https://developer.mozilla.org/fr/docs/Learn"
+                >Article 3</a
+              >
+            </div>
           </div>
         </div>
       </div>
       <p class="text-center bg-secondary text-light">
         &copy Designed by Jhon Doe
       </p>
+      <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
     </footer>
+
+    <script src="../script.js"></script>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
