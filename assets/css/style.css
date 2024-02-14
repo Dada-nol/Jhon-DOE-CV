@@ -26,6 +26,10 @@ body strong {
   color: #000000;
 }
 
+header li a:hover {
+  background-color: rgba(255, 255, 255, 0.8) !important;
+}
+
 footer a {
   text-decoration: none;
 }
@@ -41,7 +45,7 @@ footer svg {
 }
 
 .active {
-  color: #0d6efd !important;
+  color: #444 !important;
 }
 
 .card {

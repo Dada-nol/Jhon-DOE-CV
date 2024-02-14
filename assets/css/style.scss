@@ -29,6 +29,14 @@ body {
   }
 }
 
+header {
+  li {
+    a:hover {
+      background-color: rgb(255 255 255/0.8) !important;
+    }
+  }
+}
+
 footer {
   a {
     text-decoration: none;
@@ -48,7 +56,7 @@ footer {
 }
 
 .active {
-  color: $blue !important;
+  color: $textColor !important;
 }
 
 .card {
